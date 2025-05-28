@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_blocks_text_blocks",
+  "info": {
+    "displayName": "text-block"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
