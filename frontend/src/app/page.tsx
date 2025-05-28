@@ -1,6 +1,6 @@
 import Link from 'next/link';
-import { getBlogPosts } from '../utils/strapi';
-import { BlogPost } from '@/types/blog';
+import { getBlogPosts } from '../utils/getApi';
+import { BlogPost } from '@/types/types';
 import ScrollToTop from '@/components/shared/ScrollToTop';
 
 export const revalidate = 60;

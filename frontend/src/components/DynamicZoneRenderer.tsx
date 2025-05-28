@@ -1,4 +1,4 @@
-import { DynamicZoneComponent } from '@/types/blog';
+import { DynamicZoneComponent } from '@/types/types';
 import { marked } from 'marked';
 import DOMPurify from 'isomorphic-dompurify';
 import Image from 'next/image';

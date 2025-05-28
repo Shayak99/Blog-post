@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { StrapiResponse, BlogPost } from '@/types/blog';
+import { StrapiResponse, BlogPost } from '@/types/types';
 
 const API_URL = process.env.NEXT_PUBLIC_STRAPI_URL;
 
