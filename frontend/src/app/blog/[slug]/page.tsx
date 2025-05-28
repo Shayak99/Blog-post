@@ -1,4 +1,4 @@
-import { getBlogPost, getAllSlugs } from '@/lib/strapi';
+import { getBlogPost, getAllSlugs } from '@/utils/strapi';
 import DynamicZoneRenderer from '@/components/DynamicZoneRenderer';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';

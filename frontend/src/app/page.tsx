@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { getBlogPosts } from '../lib/strapi';
+import { getBlogPosts } from '../utils/strapi';
 import { BlogPost } from '@/types/blog';
 import ScrollToTop from '@/components/shared/ScrollToTop';
 
